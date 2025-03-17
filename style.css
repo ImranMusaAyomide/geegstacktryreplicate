@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-container img {
+    width: 200px;
+}
+.header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    width: 150px;
+    font-family: "Space Grotesk", sans-serif;
+    cursor: pointer;
+}
+.header-container button {
+    padding: 14px 25px;
+    background-color: #04989C;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-family: "Space Grotesk", sans-serif;;
+}
+.general-container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #1D4F61; 
+    justify-content: space-between; 
+    margin-top: 10px;
+}
+
+.img {
+    background: url(assets/herosection.asset.png);
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    /* height:80vh; */
+}
+div.text-own {
+    padding: 40px;
+}
+.text-own h1,p, h2 {
+    color: #fff;
+    margin: 10px;
+    padding-left: 20px;
+}
+.text-own h1 {
+    font-size: 40px;
+    width: 500px;
+}
+.text-own h2 {
+    padding: 10px;
+    font-size: 24px;
+    width: 450px;
+}
+.text-own p {
+    padding-top: 5px;
+    font-size: 21px;
+    width: 400px;
+}
+.btn2 {
+    margin: 20px;
+    padding: 15px 25px;
+    border: none;
+    background-color: #04989C;
+    border-radius:  12px;
+    color: #fff;
+    font-size: 20px;
+}
+.sub-general {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+    background-color: #1D4F61; 
+}
+.asset-here {
+    background: url(assets/fade.png);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 40vh;
+}
+.text-view {
+    color: #fff;
+    margin: 20px;
+}
+.text-view p{
+    width: 500px;
+}
+.text-view h1{
+    padding: 20px;
+}
+.btn3 {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 40px;
+    border-radius: 12px;
+    color: #fff;
+    border: none;
+    font-size: 21px;
+    background-color: #04989C;
+}
+
+.btn3 img {
+    margin-left: 10px;
+}
+.text-work p {
+    width: 400px;
+}
+.next-phase{
+    padding-top: 20px;
+    align-items: center;
+    margin: auto;
+}
+.text-work p{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+    color: #000;
+}
+.next-phase h1 {
+    text-align: center;
+    color: #000;
+}
+.next-phase > p {
+   text-align: center;
+    width: 500px;
+    color: #000;
+}
+
+.next-phase button {
+    padding-top: 10px;
+    display: flex;
+    margin: auto;
+}
+.cta-space {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D4F61;
+    padding: auto;
+    margin: auto;
+}
+.cta-space div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.cta-space p {
+    width: 400px;
+}
+.cta-space h1 {
+    color: #fff;
+}
+.bg {
+    margin-top: 50px;
+    width: 100%;
+    height: 50vh;
+    background: url(assets/bg.svg);
+    background-size: cover;
+    background-position: center;
+}
+.for-text p {
+    text-align: center;
+    width: 680px;
+    margin: auto;
+}
+.for-gen-con img {
+    padding-left: 50px;
+    width: 100px;
+}
+.for-gen-con  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+.for-text h1 {
+    color: #fff;
+    padding-top: 30px;
+}
