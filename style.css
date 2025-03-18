@@ -60,16 +60,20 @@ div.text-own {
 .text-own h1 {
     font-size: 40px;
     width: 500px;
+    color: #fff;
 }
 .text-own h2 {
     padding: 10px;
     font-size: 24px;
     width: 450px;
-}
+    color: #fff;}
 .text-own p {
     padding-top: 5px;
     font-size: 21px;
     width: 400px;
+}
+.white{
+    color: #fff;
 }
 .btn2 {
     margin: 20px;
@@ -170,6 +174,7 @@ div.text-own {
 }
 .cta-space p {
     width: 400px;
+    line-height: 1.5;
 }
 .cta-space h1 {
     color: #fff;
@@ -186,19 +191,139 @@ div.text-own {
     text-align: center;
     width: 680px;
     margin: auto;
+    line-height: 1.5;
 }
 .for-gen-con img {
     padding-left: 50px;
     width: 100px;
 }
+.for-gen-con h1 {
+    color: #fff;
+}
 .for-gen-con  {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    gap: 50px;
     margin: auto;
 }
 .for-text h1 {
     color: #fff;
     padding-top: 30px;
+    font-size: 34px;
+    padding: 20px;
+}
+
+article h1 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 34px;
+}
+.meetCEO {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    align-items: center;
+    gap:100px;
+    
+}
+/* .meetCEO .image {
+    background: url(assets/arib.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+} */
+
+.text-hand p{
+    width: 400px;
+    font-size: 24px;
+    color: #000;
+    line-height: 1.5;
+}
+.cta-reach h1{
+    text-align: center;
+    margin: auto;
+    color: #fff;
+}
+.cta-reach p{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    line-height: 1.4;
+    color: #fff;
+}
+ section#locate-geegstack{
+    width: 100%;
+    height: 60vh;
+    background-color: #04989C;
+}
+article.cta-reach {
+    width: 100%;
+    background-color: #04989C;
+}
+article.cta-reach h1{
+    color: #fff;
+    padding: 10px;
+
+}
+ #locate-geegstack  {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 40px;
+    align-items: start;
+}
+
+div.location-assets {
+    background: url(assets/image\ location.png);
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 50vh;
+}
+section#locate-geegstack h1{
+    font-size: 32px;
+    color: #fff;
+}
+.Locate-details p {
+    width: 500px;
+    margin: auto;
+    color: #fff;
+    line-height: 1.5;
+}
+.footer {
+    width: 90%;
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    gap: 100px;
+}
+.close-footer {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+}
+.black{
+    color: #000;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    line-height: 1.3;
+}
+.linkz h1, p {
+    color: #000;
+    width: 300px;
 }
